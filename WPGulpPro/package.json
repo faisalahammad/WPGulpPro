@@ -2,7 +2,7 @@
 	"name": "your-project",
 	"description": "A WPGulpPro based project.",
 	"version": "1.0.0",
-	"repository": "faisalahammad/WPGulp",
+	"repository": "faisalahammad/WPGulpPro",
 	"license": "MIT",
 	"devDependencies": {
 		"@babel/core": "^7.26.9",

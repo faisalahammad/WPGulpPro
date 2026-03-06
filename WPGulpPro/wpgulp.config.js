@@ -1,10 +1,12 @@
 /**
- * WPGulp Configuration File
+ * WPGulpPro Configuration File
  *
  * 1. Edit the variables as per your project requirements.
  * 2. In paths you can add <<glob or array of globs>>.
  *
- * @package WPGulp
+ * @package WPGulpPro
+ * @author Faisal Ahammad <https://twitter.com/faisalahammadwp/>
+ * @credit Originally based on WPGulp by Ahmad Awais
  */
 
 // Project options.
@@ -110,25 +112,25 @@ const zipIgnoreGlob = [
 
 // >>>>> Translation options.
 // Your text domain here.
-const textDomain = 'WPGULP';
+const textDomain = 'WPGULPPRO';
 
 // Name of the translation file.
-const translationFile = 'WPGULP.pot';
+const translationFile = 'WPGULPPRO.pot';
 
 // Where to save the translation files.
 const translationDestination = './languages';
 
 // Package name.
-const packageName = 'WPGULP';
+const packageName = 'WPGULPPRO';
 
 // Where can users report bugs.
-const bugReport = 'https://AhmadAwais.com/contact/';
+const bugReport = 'https://github.com/faisalahammad/WPGulpPro/issues';
 
 // Last translator Email ID.
-const lastTranslator = 'Ahmad Awais <your_email@email.com>';
+const lastTranslator = 'Faisal Ahammad <your_email@email.com>';
 
 // Team's Email ID.
-const team = 'AhmadAwais <your_email@email.com>';
+const team = 'Faisal Ahammad <your_email@email.com>';
 
 // Browsers you care about for auto-prefixing. Browserlist https://github.com/ai/browserslist
 // The following list is set as per WordPress requirements. Though; Feel free to change.

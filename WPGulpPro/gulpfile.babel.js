@@ -1,7 +1,7 @@
 /**
  * Gulpfile.
  *
- * Gulp with WordPress.
+ * WPGulpPro - Modern Gulp workflow for WordPress.
  *
  * Implements:
  *      1. Live reloads browser with BrowserSync.
@@ -15,12 +15,13 @@
  *      8. InjectCSS instead of browser page reload.
  *      9. Generates .pot file for i18n and l10n.
  *
- * @tutorial https://github.com/faisalahammad/WPGulp
- * @author Ahmad Awais <https://twitter.com/MrAhmadAwais/>
+ * @tutorial https://github.com/faisalahammad/WPGulpPro
+ * @author Faisal Ahammad <https://twitter.com/faisalahammadwp/>
+ * @credit Originally based on WPGulp by Ahmad Awais
  */
 
 /**
- * Load WPGulp Configuration.
+ * Load WPGulpPro Configuration.
  *
  * TODO: Customize your project in the wpgulp.config.js file.
  */

@@ -47,12 +47,12 @@ const spinner = ora({text: ''});
 	console.log(g(`Installing WPGulpPro in directory:`), d(installDir));
 	console.log(d(`This might take a couple of minutes.\n`));
 
-	spinner.start(`${y(`DOWNLOADING`)} WPGulp files…`);
+	spinner.start(`${y(`DOWNLOADING`)} WPGulpPro files…`);
 
 	try {
 		// Download all files.
 		await Promise.all(filesToDownload.map(x => download(x, CWD)));
-		spinner.succeed(`${g(`DOWNLOADED`)} WPGulp files`);
+		spinner.succeed(`${g(`DOWNLOADED`)} WPGulpPro files`);
 
 		// Rename dotfiles.
 		for (const file of dotFiles) {
