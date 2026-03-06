@@ -1,13 +1,15 @@
 <div align="center">
 
-  <small><p><em>📟 Learn to <a href="https://nodecli.com/?utm_source=github.com&utm_medium=referral&utm_campaign=faisalahammad/WPGulp" rel="nofollow">build CLI DevTools</a>, like WPGulp with me at <a href="https://nodecli.com/?utm_source=github.com&utm_medium=referral&utm_campaign=faisalahammad/WPGulp">NodeCLI.com</a>.</em></p></small>
-
   <img src="https://a.cl.ly/o0uy14NY/c" alt="WP Gulp · WordPress Gulp" />
 
   <h1><code>WordPress Gulp Workflow</code></h1>
 
 [![GitHub](https://img.shields.io/wordpress/v/akismet.svg?colorA=D14543&colorB=21759B&maxAge=2592000&style=flat&label=WordPress)](https://github.com/faisalahammad/WPGulp/)
-[![emoji-log](https://img.shields.io/badge/🚀%20Emoji-Log-gray.svg?colorA=D14543&colorB=21759B&style=flat)](https://github.com/ahmadawais/Emoji-Log/) [![GitHub stars](https://img.shields.io/github/stars/faisalahammad/WPGulp.svg?style=social&label=Stars)](https://github.com/faisalahammad/WPGulp/stargazers) [![GitHub followers](https://img.shields.io/github/followers/faisalahammad.svg?style=social&label=Follow)](https://github.com/faisalahammad?tab=followers)  [![Tweet for help](https://img.shields.io/twitter/follow/faisalahammad.svg?style=social&label=Tweet%20@faisalahammad)](https://twitter.com/faisalahammad/) [![VSCode.pro](https://img.shields.io/badge/Supported%20by-VSCode%20Power%20User%20Course%20%E2%86%92-gray.svg?colorA=D14543&colorB=21759B)](https://VSCode.pro "This open source project is supported by VSCode.pro")
+[![emoji-log](https://img.shields.io/badge/🚀%20Emoji-Log-gray.svg?colorA=D14543&colorB=21759B&style=flat)](https://github.com/ahmadawais/Emoji-Log/)
+[![GitHub stars](https://img.shields.io/github/stars/faisalahammad/WPGulp.svg?style=social&label=Stars)](https://github.com/faisalahammad/WPGulp/stargazers)
+[![GitHub followers](https://img.shields.io/github/followers/faisalahammad.svg?style=social&label=Follow)](https://github.com/faisalahammad?tab=followers)
+[![Tweet](https://img.shields.io/twitter/follow/faisalahammadwp.svg?style=social&label=Tweet%20@faisalahammadwp)](https://twitter.com/faisalahammadwp/)
+[![VSCode.pro](https://img.shields.io/badge/Supported%20by-VSCode%20Power%20User%20Course%20%E2%86%92-gray.svg?colorA=D14543&colorB=21759B)](https://VSCode.pro)
 
 </div>
 
@@ -25,14 +27,18 @@
             A FOSS (Free & Open Source Software) project. Maintained by <a href='https://github.com/faisalahammad'>@faisalahammad</a>.
         </td>
         <td align='center'>
-            <a href='https://twitter.com/faisalahammad/'>
-                <img src='https://img.shields.io/badge/→-FAISAL%20AHMAD-gray.svg?colorA=D14543&colorB=21759B&style=flat' width='150' />
+            <a href='https://github.com/faisalahammad/WPGulp'>
+                <img src='https://img.shields.io/badge/→-WPGulpPro-gray.svg?colorA=D14543&colorB=21759B&style=flat' width='120' />
             </a>
         </td>
     </tr>
 </table>
 
 <br>
+
+> **Credits:** WPGulpPro is the evolution of [WPGulp](https://github.com/ahmadawais/WPGulp) by [Ahmad Awais](https://twitter.com/MrAhmadAwais/). This fork modernizes the original with Node 20/22/24 support, Dart Sass migration, and bug fixes while preserving the zero-config philosophy.
+
+---
 
 ## 📦 WPGulpPro Can Do `THAT™`
 
@@ -47,38 +53,38 @@
 
 💻 **DEV ENVIRONMENT**
 
->- _Live reload browser with BrowserSync_
->- _Hotloading styles with CSS Injection_
+> - _Live reload browser with BrowserSync_
+> - _Hotloading styles with CSS Injection_
 
 🎨 **STYLES**
 
->- _Sass to CSS conversion (Dart Sass)_
->- _Merging media queries_
->- _Error handling_
->- _Auto-prefixing_
->- _Minification_
->- _Sourcemaps_
+> - _Sass to CSS conversion (Dart Sass)_
+> - _Merging media queries_
+> - _Error handling_
+> - _Auto-prefixing_
+> - _Minification_
+> - _Sourcemaps_
 
 🌋 **JavaScript**
 
->- _Concatenation_
->- _Minification/uglification_
->- _Babel transpilation for ESNext_
->- _Separate vendor and custom JS files handling_
+> - _Concatenation_
+> - _Minification/uglification_
+> - _Babel transpilation for ESNext_
+> - _Separate vendor and custom JS files handling_
 
 🌁 **IMAGES**
 
->- _Minification/optimization of images_
->- _File types: `.png`, `.jpg`, `.jpeg`, `.gif`, `.svg`_
+> - _Minification/optimization of images_
+> - _File types: `.png`, `.jpg`, `.jpeg`, `.gif`, `.svg`_
 
 💯 **TRANSLATION**
 
->- _Generates `.pot` translation file for i18n and l10n_
+> - _Generates `.pot` translation file for i18n and l10n_
 
 👀 **WATCHING**
 
->- _For changes in files to recompile_
->- _File types: `.css`, `.html`, `.php`, `.js`_
+> - _For changes in files to recompile_
+> - _File types: `.css`, `.html`, `.php`, `.js`_
 
 <br>
 
@@ -100,7 +106,7 @@ npm start
 
 ([npx](https://blog.npmjs.org/post/162869356040/introducing-npx-an-npm-package-runner) is a package runner tool that comes with npm 5.2+ and higher).
 
-> 🎛   _If you want to study the detailed installation of step `#1` , `#2`,  and `#3` — then take a look at the steps below_.
+> 🎛 _If you want to study the detailed installation of step `#1` , `#2`, and `#3` — then take a look at the steps below_.
 
 <br>
 <details>
@@ -135,7 +141,7 @@ npx wpgulppro
 
 ![wpgulp install gif](https://a.cl.ly/c846c265e03a/c)
 
-> ⚠️  I'm assuming that there are no previously present similar files in the root of your folder. Otherwise, you need to merge these very carefully. E.g. You can include the `scripts`, `devDependencies` in your current `package.json` file and so on for other files. If you run the above command all similar files will be overwritten.
+> ⚠️ I'm assuming that there are no previously present similar files in the root of your folder. Otherwise, you need to merge these very carefully. E.g. You can include the `scripts`, `devDependencies` in your current `package.json` file and so on for other files. If you run the above command all similar files will be overwritten.
 
 ### → `STEP #2` — Editing the Project Variables
 
@@ -175,6 +181,48 @@ npm run zip
 
 <br>
 
+## 🔧 Alternative Installation (Before npm Release)
+
+The `wpgulppro` package is not yet published to npm. Use one of these methods instead:
+
+### Method 1: GitHub Install (Recommended)
+
+```sh
+# Navigate to your WordPress theme/plugin folder
+cd /path/to/your-theme
+
+# Install directly from GitHub
+npm install faisalahammad/WPGulp
+
+# Run the installer
+npx wpgulppro
+```
+
+### Method 2: npm link (Development)
+
+```sh
+# Clone the repository
+git clone https://github.com/faisalahammad/WPGulp.git
+cd WPGulp
+
+# Link globally
+npm link
+
+# Navigate to your theme/plugin folder
+cd /path/to/your-theme
+
+# Run the installer
+wpgulppro
+```
+
+### Method 3: ZIP Download
+
+1. Download [WPGulp ZIP](https://github.com/faisalahammad/WPGulp/archive/refs/heads/master.zip)
+2. Extract the files to your theme/plugin folder
+3. Run `npm install`
+
+<br>
+
 ![Update](https://a.cl.ly/d0b586da13cc/c)
 
 ## How to Update?
@@ -207,40 +255,66 @@ Nothing's ever complete, so bear with us while we keep iterating towards a bette
 
 <br>
 
-![Hello](https://a.cl.ly/4guJenpQ/c)
+## FAQ
 
-## Sponsor
+### Why Node 20+ required?
 
-This project is maintained by [Faisal Ahammad](https://twitter.com/faisalahammad/). If you or your company use any of my projects or like what I'm doing then consider backing me. I'm in this for the long run. An open-source developer advocate.
+Node 20+ ensures compatibility with modern JavaScript features and security updates. Older Node versions (14, 16, 18) have reached or are approaching End of Life.
 
-[![Faisal on Twitter](https://img.shields.io/twitter/follow/faisalahammad.svg?style=social&label=Follow%20@faisalahammad)](https://twitter.com/faisalahammad/)
+### What's different from original WPGulp?
 
-[![Awais on Twitter](https://raw.githubusercontent.com/ahmadawais/stuff/master/sponsor/sponsor.jpg)](https://github.com/AhmadAwais/sponsor)
+| Feature | WPGulp | WPGulpPro |
+|---------|--------|-----------|
+| Node Support | Node 10+ | Node 20/22/24 |
+| Sass Compiler | node-sass (deprecated) | Dart Sass |
+| Dependencies | Outdated | Latest compatible |
+| Maintenance | 2019 | Active |
 
-### 🙌 [THEDEVCOUPLE PARTNERS](https://TheDevCouple.com/partners)
+### Can I use this with existing WPGulp projects?
 
-This open source project is supported by the help of awesome businesses listed below. What? [Read more about it →](https://TheDevCouple.com/partners)
+Yes, but you'll need to:
+1. Backup your `wpgulp.config.js`
+2. Run `npx wpgulppro` to get new files
+3. Restore your custom `wpgulp.config.js`
+4. Run `npm install` to get new dependencies
 
-<table width='100%'>
-	<tr>
-		<td width='500'><a target='_blank' href='https://kinsta.com/?kaid=WMDAKYHJLNJX&utm_source=TheDevCouple&utm_medium=Partner'><img src='https://a.cl.ly/4guJenp9' /></a>
-		<td width='500'><a target='_blank' href='https://ipapi.com/?utm_source=TheDevCouple&utm_medium=Partner'><img src='https://a.cl.ly/z8uYQO2O'/></a></td>
-	</tr>
-</table>
+### How do I migrate from node-sass to Dart Sass?
+
+Dart Sass is a drop-in replacement. If you're using WPGulpPro, it's already configured. For manual migration:
+
+```bash
+# Remove old node-sass
+npm uninstall node-sass
+
+# Install Dart Sass
+npm install sass
+```
+
+### Image optimization fails for WebP/AVIF?
+
+The `gulp-imagemin` v7 has limited support for modern formats. Images are processed with smart detection—unsupported formats are skipped. For full WebP/AVIF support, consider using a separate image optimization pipeline.
+
 <br>
 
-![Update](https://a.cl.ly/NQu1joGO)
+## Connect with the Maintainer
 
-## License & Attribution
+| Platform | Handle | Link |
+|----------|--------|------|
+| GitHub | @faisalahammad | [github.com/faisalahammad](https://github.com/faisalahammad) |
+| Twitter | @faisalahammadwp | [twitter.com/faisalahammadwp](https://twitter.com/faisalahammadwp) |
+| WordPress.org | @faisalahammad | [profiles.wordpress.org/faisalahammad](https://profiles.wordpress.org/faisalahammad/) |
+| LinkedIn | @faisalahammad | [linkedin.com/in/faisalahammad](https://linkedin.com/in/faisalahammad/) |
 
-MIT © [Faisal Ahammad](https://twitter.com/faisalahammad/).
+<br>
+
+## License & Credits
+
+- **MIT License** — See [LICENSE](/LICENSE) file
+- **Original WPGulp:** [Ahmad Awais](https://twitter.com/MrAhmadAwais/)
+- **WPGulpPro:** [Faisal Ahammad](https://github.com/faisalahammad)
 
 This project is a modernized fork of [ahmadawais/WPGulp](https://github.com/ahmadawais/WPGulp) — inspired by the work of many awesome developers especially those who contribute to this project, Gulp.js, Babel, and many other dependencies as listed in the `package.json` file. FOSS (Free & Open Source Software) for the win.
 
-[<img alt="faisalahammad" src="https://avatars1.githubusercontent.com/u/960133?v=4&s=117" width="117">](https://github.com/faisalahammad) |[<img alt="ahmadawais" src="https://avatars1.githubusercontent.com/u/960133?v=4&s=117" width="117">](https://github.com/ahmadawais) |[<img alt="MaedahBatool" src="https://avatars2.githubusercontent.com/u/12712988?v=4&s=117" width="117">](https://github.com/MaedahBatool) |
-:---: |:---: |:---: |
-[faisalahammad](https://github.com/faisalahammad) |[ahmadawais](https://github.com/ahmadawais) |[MaedahBatool](https://github.com/MaedahBatool) |
-
-[![Faisal on Twitter](https://img.shields.io/twitter/follow/faisalahammad.svg?style=social&label=Follow%20@faisalahammad)](https://twitter.com/faisalahammad/)
+[![Sponsor](https://raw.githubusercontent.com/ahmadawais/stuff/master/sponsor/sponsor.jpg)](https://github.com/AhmadAwais/sponsor)
 
 [n]: https://nodecli.com/?utm_source=github.com&utm_medium=referral&utm_campaign=faisalahammad/WPGulp
