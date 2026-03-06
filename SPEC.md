@@ -45,13 +45,13 @@ Simple attribution to original author:
 ### Project Structure
 
 ```
-WPGulp/
+WPGulpPro/
 ├── installer/              # npx wpgulppro entry point
 │   ├── index.js           # Main installer script
 │   └── utils/
 │       ├── handleError.js      # Error handler utility
 │       └── printNextSteps.js   # Post-install instructions
-├── WPGulp/                # Template files downloaded to user's project
+├── WPGulpPro/            # Template files downloaded to user's project
 │   ├── .editorconfig
 │   ├── .eslintignore
 │   ├── .eslintrc.js
@@ -81,7 +81,7 @@ WPGulp/
    - Dependencies: chalk, execa, ora, download, etc.
    - Format: CommonJS (CJS)
 
-2. **Template** (`WPGulp/package.json`)
+2. **Template** (`WPGulpPro/package.json`)
    - Purpose: Installed in user's WordPress project
    - Dependencies: gulp, sass, @babel/core, browser-sync, etc.
    - Format: CommonJS (CJS)

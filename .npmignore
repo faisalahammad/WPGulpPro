@@ -14,11 +14,11 @@
 
 # Development files
 .nvmrc
-WPGulp/.nvmrc
+WPGulpPro/.nvmrc
 
 # Template files that shouldn't be in installer package
-WPGulp/node_modules/
-WPGulp/package-lock.json
+WPGulpPro/node_modules/
+WPGulpPro/package-lock.json
 
 # Lock file
 package-lock.json

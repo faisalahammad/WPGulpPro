@@ -25,13 +25,13 @@ wpgulppro
 ### Project Structure
 
 ```
-WPGulp/
+WPGulpPro/
 ├── installer/          # npx wpgulppro entry point
 │   ├── index.js       # Main installer script
 │   └── utils/
 │       ├── handleError.js
 │       └── printNextSteps.js
-├── WPGulp/            # Template files (downloaded to user's project)
+├── WPGulpPro/         # Template files (downloaded to user's project)
 │   ├── gulpfile.babel.js
 │   ├── package.json
 │   └── wpgulp.config.js
@@ -43,7 +43,7 @@ WPGulp/
 ### Two Dependency Trees
 
 1. **Installer** (`/package.json`): Runs the `npx wpgulppro` command
-2. **Template** (`WPGulp/package.json`): Installed in user's WordPress project
+2. **Template** (`WPGulpPro/package.json`): Installed in user's WordPress project
 
 ---
 
@@ -115,8 +115,8 @@ GitHub Actions runs on every push:
 
 ### Modifying Template Files
 
-1. Edit files in `WPGulp/` folder
-2. Update `WPGulp/package.json` for dependencies
+1. Edit files in `WPGulpPro/` folder
+2. Update `WPGulpPro/package.json` for dependencies
 3. Test by running installer
 
 ### Updating Dependencies
@@ -128,7 +128,7 @@ npm outdated
 # Update installer dependencies
 npm update --save
 
-# Update template dependencies (edit WPGulp/package.json manually)
+# Update template dependencies (edit WPGulpPro/package.json manually)
 ```
 
 ### Version Numbering

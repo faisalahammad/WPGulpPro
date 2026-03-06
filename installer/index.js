@@ -25,13 +25,13 @@ const spinner = ora({text: ''});
 
 	// Files to download from faisalahammad/WPGulpPro repository.
 	const filesToDownload = [
-		`https://raw.githubusercontent.com/faisalahammad/WPGulpPro/master/WPGulp/.editorconfig`,
-		`https://raw.githubusercontent.com/faisalahammad/WPGulpPro/master/WPGulp/.eslintignore`,
-		`https://raw.githubusercontent.com/faisalahammad/WPGulpPro/master/WPGulp/.eslintrc.js`,
-		`https://raw.githubusercontent.com/faisalahammad/WPGulpPro/master/WPGulp/.gitignore`,
-		`https://raw.githubusercontent.com/faisalahammad/WPGulpPro/master/WPGulp/gulpfile.babel.js`,
-		`https://raw.githubusercontent.com/faisalahammad/WPGulpPro/master/WPGulp/package.json`,
-		`https://raw.githubusercontent.com/faisalahammad/WPGulpPro/master/WPGulp/wpgulp.config.js`
+		`https://raw.githubusercontent.com/faisalahammad/WPGulpPro/master/WPGulpPro/.editorconfig`,
+		`https://raw.githubusercontent.com/faisalahammad/WPGulpPro/master/WPGulpPro/.eslintignore`,
+		`https://raw.githubusercontent.com/faisalahammad/WPGulpPro/master/WPGulpPro/.eslintrc.js`,
+		`https://raw.githubusercontent.com/faisalahammad/WPGulpPro/master/WPGulpPro/.gitignore`,
+		`https://raw.githubusercontent.com/faisalahammad/WPGulpPro/master/WPGulpPro/gulpfile.babel.js`,
+		`https://raw.githubusercontent.com/faisalahammad/WPGulpPro/master/WPGulpPro/package.json`,
+		`https://raw.githubusercontent.com/faisalahammad/WPGulpPro/master/WPGulpPro/wpgulp.config.js`
 	];
 
 	// Dotfiles (need to be renamed with leading dot).
