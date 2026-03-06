@@ -11,7 +11,7 @@
 		"node": ">=20.0.0"
 	},
 	"bin": {
-		"wpgulppro": "./installer/index.js"
+		"wpgulppro": "installer/index.js"
 	},
 	"keywords": [
 		"wpgulp",
