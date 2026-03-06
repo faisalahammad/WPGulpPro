@@ -4,6 +4,7 @@
 
   <h1><code>WordPress Gulp Workflow</code></h1>
 
+[![npm](https://img.shields.io/npm/v/wpgulppro.svg?colorA=D14543&colorB=21759B&style=flat&label=npm)](https://www.npmjs.com/package/wpgulppro)
 [![GitHub](https://img.shields.io/wordpress/v/akismet.svg?colorA=D14543&colorB=21759B&maxAge=2592000&style=flat&label=WordPress)](https://github.com/faisalahammad/WPGulpPro/)
 [![emoji-log](https://img.shields.io/badge/🚀%20Emoji-Log-gray.svg?colorA=D14543&colorB=21759B&style=flat)](https://github.com/ahmadawais/Emoji-Log/)
 [![GitHub stars](https://img.shields.io/github/stars/faisalahammad/WPGulpPro.svg?style=social&label=Stars)](https://github.com/faisalahammad/WPGulpPro/stargazers)
@@ -181,16 +182,23 @@ npm run zip
 
 <br>
 
-## 🔧 Alternative Installation (Before npm Release)
+## 🔧 Alternative Installation Methods
 
-The `wpgulppro` package is not yet published to npm. Use one of these methods instead:
+The primary installation is via `npx wpgulppro` (see above). Alternative methods:
 
-### Method 1: GitHub Install (Recommended)
+### Method 1: Global Install
 
 ```sh
-# Navigate to your WordPress theme/plugin folder
-cd /path/to/your-theme
+# Install globally once
+npm install -g wpgulppro
 
+# Run in any theme/plugin folder
+wpgulppro
+```
+
+### Method 2: GitHub Install (Development)
+
+```sh
 # Install directly from GitHub
 npm install faisalahammad/WPGulpPro
 
@@ -198,37 +206,22 @@ npm install faisalahammad/WPGulpPro
 npx wpgulppro
 ```
 
-### Method 2: npm link (Development)
-
-```sh
-# Clone the repository
-git clone https://github.com/faisalahammad/WPGulpPro.git
-cd WPGulpPro
-
-# Link globally
-npm link
-
-# Navigate to your theme/plugin folder
-cd /path/to/your-theme
-
-# Run the installer
-wpgulppro
-```
-
-### Method 3: ZIP Download
-
-1. Download [WPGulpPro ZIP](https://github.com/faisalahammad/WPGulpPro/archive/refs/heads/master.zip)
-2. Extract the files to your theme/plugin folder
-3. Run `npm install`
-
 <br>
 
 ![Update](https://a.cl.ly/d0b586da13cc/c)
 
 ## How to Update?
 
-1. Download all the latest files from the [WPGulpPro repository](https://github.com/faisalahammad/WPGulpPro) by running `npx wpgulppro` - it will overwrite all the wpgulp files.
-2. Open terminal and install WPGulpPro's node dependencies by running the `npm install` commands in the root folder of your WordPress plugin/theme.
+To update to the latest version of WPGulpPro:
+
+```sh
+# Re-run the installer to download updated template files
+npx wpgulppro
+```
+
+This will overwrite all WPGulpPro files with the latest versions. Your custom `wpgulp.config.js` configurations will be preserved if you made a backup.
+
+> **Note:** The installer now fetches files from the [WPGulpPro repository](https://github.com/faisalahammad/WPGulpPro) and generates a fresh setup.
 
 <br>
 
@@ -293,6 +286,16 @@ npm install sass
 ### Image optimization fails for WebP/AVIF?
 
 The `gulp-imagemin` v7 has limited support for modern formats. Images are processed with smart detection—unsupported formats are skipped. For full WebP/AVIF support, consider using a separate image optimization pipeline.
+
+### How do I install WPGulpPro?
+
+The easiest way is via `npx`:
+
+```sh
+npx wpgulppro
+```
+
+This downloads the latest template files from GitHub and sets up your project interactively. The package is available on npm at [npmjs.com/package/wpgulppro](https://www.npmjs.com/package/wpgulppro).
 
 <br>
 
