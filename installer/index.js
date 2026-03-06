@@ -24,15 +24,14 @@ const spinner = ora({text: ''});
 	const installDir = CWDArray[CWDArray.length - 1];
 
 	// Files to download from faisalahammad/WPGulp repository.
-	// NOTE: Using 'node-lts-modernization' branch for testing. Change to 'master' after merge.
 	const filesToDownload = [
-		`https://raw.githubusercontent.com/faisalahammad/WPGulp/node-lts-modernization/WPGulp/.editorconfig`,
-		`https://raw.githubusercontent.com/faisalahammad/WPGulp/node-lts-modernization/WPGulp/.eslintignore`,
-		`https://raw.githubusercontent.com/faisalahammad/WPGulp/node-lts-modernization/WPGulp/.eslintrc.js`,
-		`https://raw.githubusercontent.com/faisalahammad/WPGulp/node-lts-modernization/WPGulp/.gitignore`,
-		`https://raw.githubusercontent.com/faisalahammad/WPGulp/node-lts-modernization/WPGulp/gulpfile.babel.js`,
-		`https://raw.githubusercontent.com/faisalahammad/WPGulp/node-lts-modernization/WPGulp/package.json`,
-		`https://raw.githubusercontent.com/faisalahammad/WPGulp/node-lts-modernization/WPGulp/wpgulp.config.js`
+		`https://raw.githubusercontent.com/faisalahammad/WPGulp/master/WPGulp/.editorconfig`,
+		`https://raw.githubusercontent.com/faisalahammad/WPGulp/master/WPGulp/.eslintignore`,
+		`https://raw.githubusercontent.com/faisalahammad/WPGulp/master/WPGulp/.eslintrc.js`,
+		`https://raw.githubusercontent.com/faisalahammad/WPGulp/master/WPGulp/.gitignore`,
+		`https://raw.githubusercontent.com/faisalahammad/WPGulp/master/WPGulp/gulpfile.babel.js`,
+		`https://raw.githubusercontent.com/faisalahammad/WPGulp/master/WPGulp/package.json`,
+		`https://raw.githubusercontent.com/faisalahammad/WPGulp/master/WPGulp/wpgulp.config.js`
 	];
 
 	// Dotfiles (need to be renamed with leading dot).
